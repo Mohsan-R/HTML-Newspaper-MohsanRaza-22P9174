@@ -1,4 +1,3 @@
-# HTML-Newspaper-MohsanRaza-22P9174
 # HTML Newspaper Recreation - The Daily News
 
 ## Student Information
