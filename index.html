@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Newspaper Recreation</title>
+</head>
+
+<body style="margin:0; padding:0; background:#bbb; font-family:Georgia, serif;">
+
+  <!-- ========================= -->
+  <!-- MAIN NEWSPAPER CONTAINER -->
+  <!-- ========================= -->
+  <div style="
+    width:900px;
+    margin:20px auto;
+    background:white;
+    border:5px solid black;
+    padding:12px;
+  ">
+
+    <!-- ========================= -->
+    <!-- HEADER (Masthead Title) -->
+    <!-- ========================= -->
+    <header style="
+      background:#1f2a3a;
+      color:white;
+      text-align:center;
+      font-size:70px;
+      font-weight:bold;
+      padding:45px 20px;
+      letter-spacing:2px;
+      line-height:1.1;
+      text-transform:uppercase;
+    ">
+      Prime Minister <br>
+      Sentenced to Death
+    </header>
+
+    <!-- ========================= -->
+    <!-- NAVIGATION STRIP -->
+    <!-- ========================= -->
+    <nav style="
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-top:3px solid black;
+      border-bottom:3px solid black;
+      padding:10px;
+      margin-top:6px;
+    ">
+
+      <div style="font-size:18px; font-weight:bold;">
+        Breaking News: Government Announces New Policy
+      </div>
+
+      <div style="
+        background:#1f2a3a;
+        color:white;
+        padding:8px 20px;
+        font-size:18px;
+        font-weight:bold;
+      ">
+        Edition 1979
+      </div>
+
+    </nav>
+
+    <!-- ========================= -->
+    <!-- MAIN LAYOUT USING TABLE -->
+    <!-- ========================= -->
+    <table width="100%" cellspacing="10" style="margin-top:10px;">
+
+      <tr>
+
+        <!-- ========================= -->
+        <!-- LEFT SIDEBAR COLUMN -->
+        <!-- ========================= -->
+        <td width="30%" valign="top" style="border-right:2px solid black; padding:10px;">
+
+          <!-- Sidebar Image -->
+          <img src="bhutto.jpg"
+               alt="Historical Leader Photo"
+               style="width:100%; border:2px solid black;">
+
+          <!-- Sidebar Box -->
+          <section style="
+            margin-top:15px;
+            background:#1f2a3a;
+            color:white;
+            text-align:center;
+            padding:12px;
+            font-size:18px;
+            font-weight:bold;
+          ">
+            Special Column
+          </section>
+
+          <!-- Sidebar Text in 2 Columns -->
+          <section style="
+            margin-top:15px;
+            font-size:13.5px;
+            line-height:1.6;
+            text-align:justify;
+            column-count:2;
+            column-gap:14px;
+          ">
+            Officials stated that new reforms will improve national stability.
+            Citizens are advised to remain calm as decisions unfold.
+
+            Government sources confirmed that the policy will impact education,
+            economy, and welfare programs in coming months.
+
+            Analysts believe these steps may strengthen national development.
+          </section>
+
+          <!-- Example List Requirement -->
+          <ul style="margin-top:15px; font-size:13px;">
+            <li>Political Update</li>
+            <li>Economic News</li>
+            <li>Public Reaction</li>
+          </ul>
+
+        </td>
+
+        <!-- ========================= -->
+        <!-- RIGHT MAIN ARTICLE COLUMN -->
+        <!-- ========================= -->
+        <td width="70%" valign="top" style="padding:10px;">
+
+          <!-- Headline Box -->
+          <article style="
+            border:3px solid black;
+            padding:10px;
+            background:#f5f5f5;
+            margin-bottom:15px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+          ">
+
+            <h2 style="margin:0; font-size:22px;">
+              Historic Event Creates Nationwide Impact
+            </h2>
+
+            <span style="
+              font-size:15px;
+              font-weight:bold;
+              background:#1f2a3a;
+              color:white;
+              padding:7px 14px;
+            ">
+              THE DAILY NEWS
+            </span>
+
+          </article>
+
+          <!-- Article Image -->
+          <img src="old.jpg"
+               alt="Old Newspaper Photo"
+               style="
+                 width:45%;
+                 float:left;
+                 margin:0 15px 10px 0;
+                 border:2px solid black;
+               ">
+
+          <!-- Text Under Image (4 Columns) -->
+          <section style="
+            font-size:13.5px;
+            line-height:1.6;
+            text-align:justify;
+            column-count:4;
+            column-gap:18px;
+          ">
+            The government announced major reforms today that are expected to
+            influence the economy, education, and national stability.
+
+            Officials stated that the policy will be implemented in phases.
+
+            Analysts believe this decision could shape the country's future.
+          </section>
+
+          <div style="clear:both;"></div>
+
+          <!-- Main Body Continuous Columns -->
+          <section style="
+            font-size:14px;
+            line-height:1.7;
+            text-align:justify;
+            column-count:4;
+            column-gap:22px;
+            margin-top:15px;
+          ">
+            Markets reacted strongly after the announcement of new reforms.
+            Experts predict growth in the coming months.
+
+            Opposition leaders demanded clarification, calling it a major turning
+            point for the government.
+
+            Global leaders meet this week to discuss peace negotiations and trade.
+
+            Universities across the country are adopting modern learning systems.
+
+            Major technology companies introduced devices aimed at improving
+            productivity worldwide.
+          </section>
+
+        
+
+        </td>
+
+      </tr>
+
+    </table>
+
+    <!-- ========================= -->
+    <!-- FOOTER SECTION -->
+    <!-- ========================= -->
+    <footer style="
+      text-align:center;
+      margin-top:15px;
+      font-size:13px;
+      border-top:2px solid black;
+      padding-top:10px;
+    ">
+      HTML Newspaper Recreation Assignment — CS-4070 Web Technologies
+    </footer>
+
+  </div>
+
+</body>
+</html>
