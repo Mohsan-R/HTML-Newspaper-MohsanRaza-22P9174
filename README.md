@@ -9,6 +9,9 @@
 
 ---
 
+live page 
+https://mohsan-r.github.io/HTML-Newspaper-MohsanRaza-22P9174/
+
 ## Original Newspaper Information
 
 - **Newspaper Name (Urdu):** Daily Jang (Example Old Newspaper)
